@@ -1,0 +1,72 @@
+/********************************************************** - Personal CSS - **********************************************************/
+.personal_icon {
+font-size: 30px;
+background: #000;
+padding: 3px;
+border-radius: 30px;
+  
+}
+
+.center {
+  padding: 300px 0;
+  text-align: center;
+}
+
+
+#contact {
+  display:none;
+}
+
+html,body {
+  font-family: 'Raleway', sans-serif;
+  padding: 1em 2em;
+  /* background: #222; */
+  font-size: 18px;
+  color: #aaa
+}
+
+h1,h2 {
+  font-weight: 200;
+  margin: 0.4em 0;
+}
+h1 { font-size: 3.5em; }
+h2 {
+  color: #888;
+  font-size: 2em;
+}
+
+.navbar{
+  background-color: #151515!important;
+}
+
+#personal_logo {
+  font-family: 'Codystar';
+}
+
+.is_italic {
+  font-style: italic;
+}
+
+.neons {
+   text-align: center;
+}
+
+.neons h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    color: #fff;
+    text-shadow: 0 0 10px #ad1f1f, 0 0 20px #ad1f1f, 0 0 30px #ad1f1f, 0 0 40px #ad1f1f, 0 0 50px #ad1f1f, 0 0 60px #ad1f1f, 0 0 70px #ad1f1f, 0 0 90px #ad1f1f;
+  }
+
+  to {
+    color: gray;
+    text-shadow: 0 0 20px #ad1f1f, 0 0 30px #ad1f1f, 0 0 40px #ad1f1f, 0 0 50px #ad1f1f, 0 0 60px #ad1f1f, 0 0 70px #ad1f1f, 0 0 80px #ad1f1f, 0 1 90px #ad1f1f;
+  }
+}

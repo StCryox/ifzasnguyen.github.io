@@ -1,0 +1,15 @@
+/*!
+ * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+body {
+  background-image: url('../pictures/background.jpg');
+  /*background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRDxL0CeJ7-EJ-tt1M4q9YOtBLvU49VRyqDyQPTw8NegqCdAgUc');*/
+  background-repeat: no-repeat, repeat;
+   
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
